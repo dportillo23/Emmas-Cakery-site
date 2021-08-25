@@ -90,6 +90,7 @@ header.sticky {
 
 #home .bg-image {
   background-image: url("../images/cake.jpg");
+  background-attachment: fixed;
 }
 
 .container {
@@ -403,10 +404,11 @@ header.sticky {
 }
 
 .social .social-icons a {
-  color: white;
+  color: #5eb2ff;
 }
 
 .social .social-icons a:hover {
-  color: #663300;
+  background-color: #663300;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

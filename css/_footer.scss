@@ -71,10 +71,11 @@
         border-radius: none;
 
         a {
-            color:white;
+            color:$col-blue1;
 
             &:hover {
-                color:$col-primary;
+                background-color: $col-primary;
+                color:white;
             }
         }
     }

@@ -33,6 +33,7 @@ body {
 #home {
     .bg-image {
         background-image: url('../images/cake.jpg');
+        background-attachment: fixed;
     }
 }
 
