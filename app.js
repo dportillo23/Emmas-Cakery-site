@@ -1,8 +1,8 @@
 const logo = $(".logo-header");
 
 $(window).scroll(function(){
-    $("header").toggleClass("sticky", $(window).scrollTop() > 0.1);
-    if ($(window).scrollTop() > 0.1) {
+    $("header").toggleClass("sticky", $(window).scrollTop() > 250);
+    if ($(window).scrollTop() > 250) {
         logo.attr("src", "images/Logos/logo.png");
     } else {
         logo.attr("src", "images/Logos/logo-acuarela.png")
