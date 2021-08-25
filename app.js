@@ -9,3 +9,6 @@ $(window).scroll(function(){
     }
     
 })
+
+const year = new Date().getFullYear();
+$('.year').html(year);
